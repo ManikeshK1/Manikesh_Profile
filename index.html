@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manikesh Kumar | Portfolio</title>
+  <meta name="description" content="Portfolio of Manikesh Kumar, B.Tech in Data Science & AI at IIIT Dharwad, passionate about Machine Learning, Data Science, and Generative AI.">
+  <meta name="keywords" content="Manikesh Kumar, Portfolio, Data Science, AI, Machine Learning, B.Tech, IIIT Dharwad">
+  <meta property="og:title" content="Manikesh Kumar | Portfolio">
+  <meta property="og:description" content="Portfolio of Manikesh Kumar, showcasing skills and projects in Data Science & AI.">
+  <meta property="og:image" content="your-image-url-here.jpg">
+  <meta property="og:url" content="https://your-website-url-here.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    header {
+      background: linear-gradient(90deg, #2c3e50, #34495e);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    img.profile {
+      width: 140px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-top: 1rem;
+    }
+    section {
+      padding: 3rem 1rem;
+    }
+    .skills span {
+      margin: 0.5rem;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background-color: #dee2e6;
+      border-radius: 25px;
+    }
+    .card:hover {
+      transform: scale(1.03);
+      transition: 0.3s ease-in-out;
+    }
+    .dark-mode {
+      background-color: #1e1e2f;
+      color: #f0f0f0;
+    }
+    .dark-mode header,
+    .dark-mode footer {
+      background-color: #12121f;
+      color: #f0f0f0;
+    }
+    .dark-mode .skills span {
+      background-color: #2a2a3b;
+      color: #e0e0e0;
+    }
+    .dark-mode .card {
+      background-color: #2a2a3b;
+      color: #e0e0e0;
+      border: none;
+    }
+    .dark-mode .btn-outline-primary,
+    .dark-mode .btn-outline-dark,
+    .dark-mode .btn-outline-info {
+      color: #f0f0f0;
+      border-color: #f0f0f0;
+    }
+    .dark-mode .btn-outline-primary:hover,
+    .dark-mode .btn-outline-dark:hover,
+    .dark-mode .btn-outline-info:hover {
+      background-color: #f0f0f0;
+      color: #121212;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Manikesh</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header data-aos="fade-down">
+  <h1>MANIKESH KUMAR</h1>
+  <p>B.Tech in Data Science & AI | IIIT Dharwad</p>
+  <img src="my-photo.png" alt="Profile Photo" class="profile">
+  <p id="animated-text">Welcome to my portfolio!</p>
+</header>
+
+<div class="text-center mt-3">
+  <button class="btn btn-dark" id="dark-mode-btn" onclick="toggleDarkMode()">🌓 Toggle Dark Mode</button>
+</div>
+
+<section data-aos="fade-right">
+  <h2>About Me</h2>
+  <p>Hello! I’m a student at IIIT Dharwad pursuing Data Science & AI. I’m passionate about machine learning, data science, and generative AI. I enjoy solving real-world problems and building smart systems.</p>
+</section>
+
+<section data-aos="fade-left">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>Python</span>
+    <span>Java</span>
+    <span>Machine Learning</span>
+    <span>HTML & CSS</span>
+    <span>JavaScript</span>
+    <span>Git</span>
+    <span>Speech Processing</span>
+  </div>
+</section>
+
+<section data-aos="zoom-in">
+  <h2>Projects</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card p-3 mb-4 shadow-sm">
+        <h5>🔊 Speaker Recognition</h5>
+        <p>Built using ECAPA-TDNN & LibriSpeech. Identifies speakers with high accuracy.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card p-3 mb-4 shadow-sm">
+        <h5>📊 PCA + SVD Visualizer</h5>
+        <p>Interactive JS tool to visualize linear algebra concepts like PCA & SVD.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card p-3 mb-4 shadow-sm">
+        <h5>🌐 Personal Portfolio</h5>
+        <p>This interactive website built with HTML, Bootstrap, and AOS animations.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-aos="fade-up">
+  <h2>Contact</h2>
+  <div class="contact">
+    <a href="mailto:&#050;&#051;&#098;&#100;&#115;&#048;&#051;&#050;&#064;&#105;&#105;&#105;&#116;&#100;&#119;&#100;&#046;&#097;&#099;&#046;&#105;&#110;" class="btn btn-outline-primary m-1">📧 Email</a>
+    <a href="https://github.com/IdBhsiM" class="btn btn-outline-dark m-1" rel="noopener noreferrer" target="_blank">💻 GitHub</a>
+    <a href="https://linkedin.com/in/manikesh-kumar" class="btn btn-outline-info m-1" rel="noopener noreferrer" target="_blank">🔗 LinkedIn</a>
+  </div>
+</section>
+
+<footer>
+  © 2025 Manikesh Kumar | Built with ❤️ using HTML + Bootstrap + AOS
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+
+  const text = document.getElementById("animated-text");
+  text.style.opacity = 0;
+  setTimeout(() => {
+    text.style.transition = "opacity 2s";
+    text.style.opacity = 1;
+  }, 500);
+
+  function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+    const button = document.getElementById("dark-mode-btn");
+    if (document.body.classList.contains("dark-mode")) {
+      button.innerText = "🌞 Toggle Light Mode";
+    } else {
+      button.innerText = "🌓 Toggle Dark Mode";
+    }
+  }
+</script>
+
+</body>
+</html>
